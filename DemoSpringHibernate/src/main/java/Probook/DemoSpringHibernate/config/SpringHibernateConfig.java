@@ -23,7 +23,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @PropertySource(value = { "classpath:connection.properties" })
 @EnableTransactionManagement
 public class SpringHibernateConfig {
-//Addding line
+
 	@Bean
 	public PropertySourcesPlaceholderConfigurer placeHolderConfigurer() {
 		return new PropertySourcesPlaceholderConfigurer();
